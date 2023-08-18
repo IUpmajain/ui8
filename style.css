@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(252, 189, 198);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.start{
+    display: flex;
+    margin-top: 10px;
+}
+.start h2{
+    margin-top: 15px;
+    color: green;
+}
+nav ul{
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+    list-style: none;
+    margin-top: 20px;
+    font-size: 20px;
+    color: gray;
+}
+nav ul button{
+    width: 80px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.text{
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.text h1{
+    font-size: 55px;
+}
+.text p{
+    font-size: 18px;
+    margin-top: 10px;
+    color: gray;
+}
+.text span{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.text span button{
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(11, 102, 124);
+    color: white;
+}
+.image img{
+    margin-top: 20px;
+    width: 350px;
+    height: 350px;
+}
+.collect{
+    display: flex;
+    justify-content: space-between;
+}
+.collect img{
+    width: 200px;
+    height: 160px;
+}
